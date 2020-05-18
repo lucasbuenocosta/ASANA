@@ -1,6 +1,6 @@
 function asanaRequest($methodPath, $httpMethod = 'GET', $body = null)
 {
-	$apiKey = 'ASANA_API_KEY_HERE'; /// Get it from http://app.asana.com/-/account_api
+	$apiKey = 2b58741569613373c5c8e2d443af42ee; /// Get it from http://app.asana.com/-/account_api
 
 	$url = "https://app.asana.com/api/1.0/$methodPath";
 	$ch = curl_init();
